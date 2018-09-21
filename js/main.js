@@ -9,7 +9,7 @@ let computer = Math.floor(Math.random() * 3);
 console.log(player);
 console.log(computer);
 // опишем все условия и будем выводить в консоль 'computer win' или 'player win'
-if (player === 0 && computer === 0) {
+if (player === computer) {
     console.log('draw');
 } else if (player === 0 && computer === 1) {
     console.log('player win');
